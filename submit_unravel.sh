@@ -5,7 +5,6 @@
 #SBATCH --time=1:00:00
 #SBATCH --mem-per-cpu=2000
 #SBATCH --mail-type='FAIL'
-#SBATCH --mail-user='nicolas.delinte@uclouvain.be'
 
 #SBATCH --output='./logs/slurmJob_unravel.out'
 #SBATCH --error='./logs/slurmJob_unravel.err'
