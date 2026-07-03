@@ -6,7 +6,7 @@ This repository contains helper functions to perform [UNRAVEL](https://github.co
 ```
 git clone https://github.com/DelinteNicolas/Tract_Study.git
 ```
-2. Install the required python packages in ```requirements.txt```
+2. Install the required python packages specified in ```requirements.txt```
 3. Modify the root, subject list and mail variables in ```submit_tract_analysis.sh```
 
 ## Launching the job
@@ -20,3 +20,6 @@ sbatch submit_tract_analysis.sh
 ## Modify the tracts
 
 Upload the ROIs to the ```atlas_rois``` folder, and adapt the ```output_unravel.py``` and ```tracking_from_rois.py``` files.
+
+>[!note]
+>This readme is a work in progress, do not hesitate to leave suggestions on how to improve it.
