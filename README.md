@@ -1,5 +1,7 @@
 This repository contains helper functions to perform [UNRAVEL](https://github.com/DelinteNicolas/UNRAVEL) analysis on a [Elikopy](https://github.com/Hyedryn/elikopy) study.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/DelinteNicolas/Tract_Study)
+
 ## Setting up
 
 1. Clone the repository
