@@ -9,7 +9,13 @@ This repository contains helper functions to perform [UNRAVEL](https://github.co
 git clone https://github.com/DelinteNicolas/Tract_Study.git
 ```
 2. Install the required python packages specified in ```requirements.txt```
-3. Modify the root, subject list and mail variables in ```submit_tract_analysis.sh```
+   For instance,
+   ```
+   pip install unravel-python
+   pip install pilab-regis
+   pip install xlsxwriter
+   ```
+4. Modify the root, subject list and mail variables in ```submit_tract_analysis.sh```
 
 ## Launching the job
 
