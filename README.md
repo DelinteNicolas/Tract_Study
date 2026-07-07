@@ -30,7 +30,7 @@ This repository contains helper functions to perform [UNRAVEL](https://github.co
 
 Upload the ROIs to the ```atlas_rois``` folder, and adapt the ```output_unravel.py``` and ```tracking_from_rois.py``` files.
 
-## Kip the registration step
+## Skip the registration step
 
 To gain time, if the regions are already registered but the tracking must be recomputed, the ```submit_tracking.sh``` file can be modified by commenting the registration step.
 
