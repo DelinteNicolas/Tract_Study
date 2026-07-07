@@ -21,9 +21,10 @@ This repository contains helper functions to perform [UNRAVEL](https://github.co
 
 1. Move the working directory inside the folder ```cd Tract_Study```
 2. Launch the job with slurm
-```
-sbatch submit_tract_analysis.sh
-```
+   
+   ```
+   sbatch submit_tract_analysis.sh
+   ```
 
 ## Modify the tracts
 
