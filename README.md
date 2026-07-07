@@ -32,11 +32,11 @@ Upload the ROIs to the ```atlas_rois``` folder, and adapt the ```output_unravel.
 
 ## Skip the registration step
 
-To gain time, if the regions are already registered but the tracking must be recomputed, the ```submit_tracking.sh``` file can be modified by commenting the registration step.
+If the regions have already been registered and you only need to recompute the tractography, you can skip the registration step by commenting it out in the ```submit_tracking.sh``` script.
 
 ## Skip the tracking step
 
-If the tracking is already done and you only want to run the UNRAVEL analysis, the ```submit_tract_analysis.sh``` file can be modified by replacing the ```submit_tracking.sh``` by the ```skip.sh``` step. This will bypass the tracking step.
+If tractography has already been completed and you only want to run the UNRAVEL analysis, modify ```submit_tract_analysis.sh``` to replace the call to ```submit_tracking.sh``` with ```skip.sh```. This bypasses the tracking step and runs only the analysis.
 
 >[!note]
 >This readme is a work in progress, do not hesitate to leave suggestions on how to improve it.
