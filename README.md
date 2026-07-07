@@ -5,11 +5,11 @@ This repository contains helper functions to perform [UNRAVEL](https://github.co
 ## Setting up
 
 1. Clone the repository
-```
-git clone https://github.com/DelinteNicolas/Tract_Study.git
-```
-2. Install the required python packages specified in ```requirements.txt```
-   For instance,
+   ```
+   git clone https://github.com/DelinteNicolas/Tract_Study.git
+   ```
+2. Install the required python packages specified in ```requirements.txt```. For instance,
+
    ```
    pip install unravel-python
    pip install pilab-regis
